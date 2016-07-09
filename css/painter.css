@@ -1,0 +1,39 @@
+
+
+.red{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+}
+
+.blue{
+    background-color: blue;
+    height: 60px;
+    width: 60px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+}
+
+.green{
+    background-color: green;
+    height: 60px;
+    width: 60px;
+}
+
+.purple{
+    background-color: purple;
+    height: 60px;
+    width: 60px;
+}
+.boardColumn{
+    display: inline-block;
+}
+.miniBox{
+  border: .1px solid black;
+  height:15px;
+  width: 15px;
+}
