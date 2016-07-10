@@ -28,7 +28,27 @@ var createBoard = function(){
     }
     
 };
+window.onload = function(){
+    for( var t = 0; x<ColorArray.length;t++){
+        var button = document.createElement('button');
+        button.classList.add(ColorArray[i]);
+        button.value = ColorArray[i];
+        button.addEventListener('click',changeColor);
+        span.appendChild(button)
+    }
+}
+
+
+
 
 // paintIt function
+var paintIt = function(){
+    event.target.style.backgroundColor = CurrentColor;
+};
+
+//set the color
+var changeColor = function(click) {
+    CurrentColor=click.target.value;
+};
 
 //colorpallet make
